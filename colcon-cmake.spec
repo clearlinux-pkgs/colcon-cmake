@@ -4,7 +4,7 @@
 #
 Name     : colcon-cmake
 Version  : 0.2.3
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/a3/92/3e4a8995b621905f25973aa70ecfb2be2842b67ffae5c53068179804dd8f/colcon-cmake-0.2.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a3/92/3e4a8995b621905f25973aa70ecfb2be2842b67ffae5c53068179804dd8f/colcon-cmake-0.2.3.tar.gz
 Summary  : Extension for colcon to support CMake packages.
@@ -12,6 +12,8 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: colcon-cmake-python3
 Requires: colcon-cmake-python
+Requires: colcon-core
+Requires: colcon-library-path
 BuildRequires : buildreq-distutils3
 
 %description
@@ -43,7 +45,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532980377
+export SOURCE_DATE_EPOCH=1533002281
 python3 setup.py build -b py3
 
 %install
