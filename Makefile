@@ -1,5 +1,5 @@
 PKG_NAME := colcon-cmake
-URL = https://files.pythonhosted.org/packages/a3/92/3e4a8995b621905f25973aa70ecfb2be2842b67ffae5c53068179804dd8f/colcon-cmake-0.2.3.tar.gz
+URL = https://files.pythonhosted.org/packages/b7/44/c23d6e2785ff71f609d959653a8db6d2e0cf8c36aa2f10f371d83ee61f00/colcon-cmake-0.2.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
