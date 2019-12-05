@@ -4,7 +4,7 @@
 #
 Name     : colcon-cmake
 Version  : 0.2.17
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/f8/c2/2618853c4626dfc224eaa07539150131c034eb29f519ff97de51c768f362/colcon-cmake-0.2.17.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f8/c2/2618853c4626dfc224eaa07539150131c034eb29f519ff97de51c768f362/colcon-cmake-0.2.17.tar.gz
 Summary  : Extension for colcon to support CMake packages.
