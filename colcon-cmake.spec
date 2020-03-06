@@ -4,7 +4,7 @@
 #
 Name     : colcon-cmake
 Version  : 0.2.19
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/cb/55/f11226a1d5df2790b1ea83676a8f9b3ee25622411fdeb18871b5327d8012/colcon-cmake-0.2.19.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cb/55/f11226a1d5df2790b1ea83676a8f9b3ee25622411fdeb18871b5327d8012/colcon-cmake-0.2.19.tar.gz
 Summary  : Extension for colcon to support CMake packages.
@@ -21,10 +21,7 @@ BuildRequires : colcon-library-path
 BuildRequires : colcon-test-result
 
 %description
-colcon-cmake
 ============
-
-An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to support `CMake <https://cmake.org>`_ projects.
 
 %package python
 Summary: python components for the colcon-cmake package.
@@ -39,10 +36,10 @@ python components for the colcon-cmake package.
 Summary: python3 components for the colcon-cmake package.
 Group: Default
 Requires: python3-core
-Provides: pypi(colcon-cmake)
-Requires: pypi(colcon-library-path)
-Requires: pypi(colcon-core)
-Requires: pypi(colcon-test-result)
+Provides: pypi(colcon_cmake)
+Requires: pypi(colcon_core)
+Requires: pypi(colcon_library_path)
+Requires: pypi(colcon_test_result)
 
 %description python3
 python3 components for the colcon-cmake package.
@@ -57,8 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583433381
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583527406
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
